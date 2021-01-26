@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "chat-websocket-client"
+    }
+  },
+  "defaultProject": "chat-websocket-client",
+  "cli": {
+    "analytics": false
+  }
 }

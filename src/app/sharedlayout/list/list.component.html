@@ -1,0 +1,12 @@
+<div class="w3-card-4">
+  <ul *ngIf="listElements" class="w3-ul w3-hoverable">
+      <li *ngFor="let item of listElements">
+        <h4>{{item.name}}</h4>
+        <h5>{{item.message}}</h5>
+        <em>{{item.localDateTime}}</em>
+      </li>
+  </ul>
+  <ul *ngIf="!listElements" class="w3-ul w3-hoverable">
+    <li>List is empty</li>
+  </ul>
+</div>
